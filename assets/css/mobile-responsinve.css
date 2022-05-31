@@ -1,0 +1,60 @@
+@media screen and (max-width:550px) {
+    .hero-slider {
+        height: 650px;
+    }
+    .hero-slider .slider .slider-1 {
+        height: 650px;
+    }
+    .label {
+        left: 30%;
+        font-size: 16px;
+    }
+    .col-3 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 5px;
+    }
+    .col-4 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 5px;
+    }
+    .l2 {
+        left: 40%;
+    }
+    .l3 {
+        left: 50%;
+    }
+    .l4 {
+        left: 60%;
+    }
+    .l5 {
+        left: 70%;
+    }
+    .hero-slider .slider .slider-1 .caption .hero-btn {
+        padding: 11px 15px;
+        font-size: 16px;
+    }
+    .down-btn .card {
+        width: 100%;
+        margin: 0;
+    }
+    .client-section .testimonial .box {
+        min-height: 390px;
+    }
+    .client-section .testimonial label {
+        top: calc(50% + 116px);
+        left: calc(50% + -101px);
+    }
+    .client-section .testimonial .c-2 {
+        top: calc(50% + 116px);
+        left: calc(50% + -31px);
+    }
+    .client-section .testimonial .c-3 {
+        top: calc(50% + 116px);
+        left: calc(50% + 43px);
+    }
+    .footer .news-form {
+        width: 100%;
+    }
+}

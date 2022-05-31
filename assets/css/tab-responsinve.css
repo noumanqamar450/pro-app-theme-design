@@ -1,0 +1,71 @@
+@media screen and (max-width:768px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .col-3 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding: 5px;
+    }
+    .col-4 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding: 5px;
+    }
+    .col-6 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 5px;
+    }
+    .hero-slider .slider .slider-1 .img-top {
+        display: none;
+    }
+    .hero-slider {
+        height: 500px;
+    }
+    .hero-slider .slider .slider-1 .caption h1 {
+        margin-top: 0px;
+    }
+    .hero-slider .slider .slider-1 {
+        height: 500px;
+    }
+    .label {
+        left: 35%;
+        font-size: 16px;
+    }
+    .l2 {
+        left: 40%;
+    }
+    .l3 {
+        left: 45%;
+    }
+    .l4 {
+        left: 50%;
+    }
+    .l5 {
+        left: 55%;
+    }
+    .down-section {
+        padding: 20px 20px;
+    }
+    .client-section .testimonial .box {
+        min-height: 360px;
+    }
+    .client-section .testimonial label {
+        top: calc(50% + 94px);
+        left: calc(50% + -101px);
+    }
+    .client-section .testimonial .c-2 {
+        top: calc(50% + 94px);
+        left: calc(50% + -31px);
+    }
+    .client-section .testimonial .c-3 {
+        top: calc(50% + 94px);
+        left: calc(50% + 43px);
+    }
+    .footer .news-form {
+        width: 60%;
+    }
+}
